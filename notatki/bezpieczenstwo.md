@@ -1,0 +1,3 @@
+# Bezpieczeństwo danych i kluczy w repozytorium
+
+W publicznym repozytorium nie wolno zapisywać haseł ani kluczy API, ponieważ stają się one natychmiast widoczne dla każdego użytkownika Internetu oraz automatycznych botów skanujących sieć w poszukiwaniu danych uwierzytelniających. Samo usunięcie pliku z hasłem w kolejnym zatwierdzeniu nie wystarcza, ponieważ system Git zachowuje pełną historię wszystkich wprowadzonych zmian. Wrażliwe dane pozostają trwale zapisane we wcześniejszych commitach i każdy może je bez problemu podejrzeć w historii projektu. Aby skutecznie pozbyć się wycieku, konieczne jest natychmiastowe unieważnienie (rotacja) ujawnionego klucza oraz całkowite przepisanie historii repozytorium.
