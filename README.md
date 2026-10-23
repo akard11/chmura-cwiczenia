@@ -1,1 +1,10 @@
 # chmura-cwiczenia
+Repozytorium do przedmiotu „Wprowadzenie do przetwarzania w chmurze”.
+
+- Autor: (Krzysztof)
+- Grupa: (1)
+
+## Czego się tu nauczę
+1. Pracy w Google Colab
+2. Przechowywania plików w serwisie GitHub
+3. Publikowania strony w chmurze
